@@ -82,3 +82,7 @@
 
 ## merge 'feature branch' into master
 
+
+
+[Git's workflow](https://docs.microsoft.com/en-us/azure/devops/repos/git/pullrequest?view=azure-devops) uses branches to isolate work until you're ready to merge the changes into your default branch, such as master. The pull request is the collaborative process that lets the rest of the team discuss changes in a branch and agree to merge them once everyone approves. Use pull requests to get early feedback from others on work in progress, even if you're not ready to merge the changes into another branch.
+
