@@ -1,10 +1,12 @@
 # devops
 
+![git](https://github.com/ezahr/devops/blob/master/pictures/git_init.png)
 
-create_new_repo.png
-git_commit.png
-git_init.png
-git_push.png
+![git](https://github.com/ezahr/devops/blob/master/pictures/create_new_repo.png)
+
+![git](https://github.com/ezahr/devops/blob/master/pictures/git_commit.png)
+
+![git](https://github.com/ezahr/devops/blob/master/pictures/git_push.png)
 
 
 
