@@ -1,16 +1,22 @@
 
 ````
 $ git checkout master
+$ sudo git status
 $ git branch new-branch
 $ git branch
 $ git checkout new-branch
+$ sudo git status
 $ sudo git push --set-upstream origin new-branche
 
 $ git checkout master
 $ sudo git status
+$ sudo git merge new-branch
+$ sudo git pull
 $ sudo git push --set-upstream origin master
 
+$ git branch -d new-branche
 $ sudo git push origin --delete new-branch
+
 
 
 
