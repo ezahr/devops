@@ -40,7 +40,7 @@
 |sudo git commit -am "for you devops project"|
 |sudo git push|
 
-## create feature branches  
+## create 'feature branche'  from master
 ![git](https://github.com/ezahr/devops/blob/master/pictures/git-branche_feature1_00.png)
 
 ![git](https://github.com/ezahr/devops/blob/master/pictures/git-branche_feature1_01.png)
@@ -80,5 +80,5 @@
 |sudo git push --set-upstream origin feature1|
 
 
-## merge feature brannch into master
+## merge 'feature branch' into master
 
