@@ -43,7 +43,23 @@
 
 ## branches 
 
-[branches](https://docs.microsoft.com/en-us/azure/devops/repos/git/branches?view=azure-devops&tabs=command-line#use-branches-to-manage-development)
+|[branches](https://docs.microsoft.com/en-us/azure/devops/repos/git/branches?view=azure-devops&tabs=command-line#use-branches-to-manage-development)|
+|------------------------------------------------------|
+|sudo git commit -am "pentested"|
+|sudo git checkout master|
+|git config --global --ed|it|
+|sudo git checkout featur|e1| |
+|git status|
+|clear|
+|git s|tatus|
+|sudo |git c|heckout master|
+|sudo |git c|heckout featur|e1 |
+|git s|tatus|
+|git p|ush -|u origin users/frank/bugfix|
+|git push -|u origin |
+|sudo git p|ush -u or|igin |
+|sudo git p|ush --set|-upst|ream origin feature1|
+
 
 
 
