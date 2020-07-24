@@ -1,4 +1,4 @@
-# devops
+# devops create repo
 
 ![git](https://github.com/ezahr/devops/blob/master/pictures/git_init.png)
 
@@ -7,7 +7,6 @@
 ![git](https://github.com/ezahr/devops/blob/master/pictures/git_commit.png)
 
 ![git](https://github.com/ezahr/devops/blob/master/pictures/git_push.png)
-
 
 
 
@@ -41,7 +40,7 @@
 |sudo git commit -am "for you devops project"|
 |sudo git push|
 
-## branches  sudo git push --set-upstream origin feature1
+## create feature branches  
 ![git](https://github.com/ezahr/devops/blob/master/pictures/git-branche_feature1_00.png)
 
 ![git](https://github.com/ezahr/devops/blob/master/pictures/git-branche_feature1_01.png)
@@ -81,5 +80,5 @@
 |sudo git push --set-upstream origin feature1|
 
 
-
+## merge feature brannch into master
 
