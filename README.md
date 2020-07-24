@@ -21,7 +21,6 @@ $ sudo git push --set-upstream origin master
 ![git](https://github.com/ezahr/devops/blob/master/pictures/git_push.png)
 
 
-
 |[must-know-commands-to-make-your-first-commit](https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c)
 |--------------------------------------|
 |sudo rm -rf devops/                                    |
@@ -98,11 +97,24 @@ $ sudo git push --set-upstream origin master
 
 [apply-changes-from-one-branch-to-another](https://www.jetbrains.com/help/pycharm/apply-changes-from-one-branch-to-another.html?gclid=Cj0KCQjwjer4BRCZARIsABK4QeVp50Oynvq_9kHTnyT9VkzgFQwRHjhSf9QMmiZAoR-xlBG63GkFyCkaArOFEALw_wcB#cherry-pick)
 
-````
 
 
 
-# ...develop some code...
+# ...develop some code...  sudo git checkout master -> sudo git merge feature1 ->  sudo git pull ->  sudo git push
+
+|sudo git checkout master|
+|sudo git merge feature1|
+|git status|
+|sudo git status|
+|sudo git push|
+|sudo git push --set-upstream origin master|
+|git status|
+|git pull|
+|sudo git pull|
+|cat index.nginx-debian.html |
+|sudo git push|
+
+
 
 ````
 ubuntu@ubuntu:/var/www/html/devops$ sudo git pull
@@ -197,15 +209,5 @@ To https://github.com/ezahr/devops.git
 ````
 
 
-|sudo git checkout master|
-|sudo git merge feature1|
-|git status|
-|sudo git status|
-|sudo git push|
-|sudo git push --set-upstream origin master|
-|git status|
-|git pull|
-|sudo git pull|
-|cat index.nginx-debian.html |
-|sudo git push|
+
 
