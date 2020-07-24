@@ -1,3 +1,15 @@
+
+$ git checkout master
+$ git branch new-branch
+$ git checkout new-branch
+$ sudo git push --set-upstream origin new-branche
+$ git checkout master
+$ sudo git status|
+$ sudo git push --set-upstream origin master
+
+
+
+
 # devops create repo
 
 ![git](https://github.com/ezahr/devops/blob/master/pictures/git_init.png)
@@ -82,29 +94,108 @@
 
 ## merge 'feature branch' into master
 
-
-
 [Git's workflow](https://docs.microsoft.com/en-us/azure/devops/repos/git/pullrequest?view=azure-devops) uses branches to isolate work until you're ready to merge the changes into your default branch, such as master. The pull request is the collaborative process that lets the rest of the team discuss changes in a branch and agree to merge them once everyone approves. Use pull requests to get early feedback from others on work in progress, even if you're not ready to merge the changes into another branch.
 
 [apply-changes-from-one-branch-to-another](https://www.jetbrains.com/help/pycharm/apply-changes-from-one-branch-to-another.html?gclid=Cj0KCQjwjer4BRCZARIsABK4QeVp50Oynvq_9kHTnyT9VkzgFQwRHjhSf9QMmiZAoR-xlBG63GkFyCkaArOFEALw_wcB#cherry-pick)
 
+````
 
-$ git checkout master
-$ git branch new-branch
-$ git checkout new-branch
+
 
 # ...develop some code...
 
-git add –A
-git commit –m "Some commit message"
-$ git checkout master
-$ git merge new-branch
+````
+ubuntu@ubuntu:/var/www/html/devops$ sudo git pull
+remote: Enumerating objects: 61, done.
+remote: Counting objects: 100% (61/61), done.
+remote: Compressing objects: 100% (57/57), done.
+remote: Total 59 (delta 14), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (59/59), 4.19 MiB | 3.95 MiB/s, done.
+From https://github.com/ezahr/devops
+   9b200ad..ed1848e  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ README.md                            |  90 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ pictures/README.md                   |   1 +
+ pictures/create_new_repo.png         | Bin 0 -> 204118 bytes
+ pictures/git-branche_feature1_00.png | Bin 0 -> 143121 bytes
+ pictures/git-branche_feature1_01.png | Bin 0 -> 134851 bytes
+ pictures/git-branche_feature1_02.png | Bin 0 -> 312707 bytes
+ pictures/git-branche_feature1_03.png | Bin 0 -> 113205 bytes
+ pictures/git-branche_feature1_04.png | Bin 0 -> 42419 bytes
+ pictures/git-branche_feature1_05.png | Bin 0 -> 77962 bytes
+ pictures/git-branche_feature1_06.png | Bin 0 -> 355992 bytes
+ pictures/git-branche_feature1_07.png | Bin 0 -> 149919 bytes
+ pictures/git-branche_feature1_08.png | Bin 0 -> 187574 bytes
+ pictures/git-branche_feature1_09.png | Bin 0 -> 86942 bytes
+ pictures/git-branche_feature1_10.png | Bin 0 -> 327600 bytes
+ pictures/git-branche_feature1_11.png | Bin 0 -> 323409 bytes
+ pictures/git_commit.png              | Bin 0 -> 212788 bytes
+ pictures/git_init.png                | Bin 0 -> 1692313 bytes
+ pictures/git_push.png                | Bin 0 -> 154407 bytes
+ 18 files changed, 90 insertions(+), 1 deletion(-)
+ create mode 100644 pictures/README.md
+ create mode 100644 pictures/create_new_repo.png
+ create mode 100644 pictures/git-branche_feature1_00.png
+ create mode 100644 pictures/git-branche_feature1_01.png
+ create mode 100644 pictures/git-branche_feature1_02.png
+ create mode 100644 pictures/git-branche_feature1_03.png
+ create mode 100644 pictures/git-branche_feature1_04.png
+ create mode 100644 pictures/git-branche_feature1_05.png
+ create mode 100644 pictures/git-branche_feature1_06.png
+ create mode 100644 pictures/git-branche_feature1_07.png
+ create mode 100644 pictures/git-branche_feature1_08.png
+ create mode 100644 pictures/git-branche_feature1_09.png
+ create mode 100644 pictures/git-branche_feature1_10.png
+ create mode 100644 pictures/git-branche_feature1_11.png
+ create mode 100644 pictures/git_commit.png
+ create mode 100644 pictures/git_init.png
+ create mode 100644 pictures/git_push.png
+ubuntu@ubuntu:/var/www/html/devops$ ;s
+-bash: syntax error near unexpected token `;'
+ubuntu@ubuntu:/var/www/html/devops$ ls
+README.md  index.nginx-debian.html  pictures
+ubuntu@ubuntu:/var/www/html/devops$ cat index.nginx-debian.html 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required for your devops project feature1 pentested.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+ubuntu@ubuntu:/var/www/html/devops$ sudo git push
+Username for 'https://github.com': ezahr
+Password for 'https://ezahr@github.com': 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 373 bytes | 373.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To https://github.com/ezahr/devops.git
+   ed1848e..7b3d81f  master -> master
 
 
-ubuntu@ubuntu:/var/www/html/devops$ sudo git checkout master
-Switched to branch 'master'
-Your branch is up to date with 'origin/master'.
-ubuntu@ubuntu:/var/www/html/devops$ 
+
+````
+
 
 |sudo git checkout master|
 |sudo git merge feature1|
