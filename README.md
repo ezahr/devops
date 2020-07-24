@@ -42,29 +42,30 @@
 |sudo git push|
 
 ## branches  sudo git push --set-upstream origin feature1
-![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_00.png)
+![git](https://github.com/ezahr/devops/blob/master/pictures/git-branche_feature1_00.png)
 
-![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_01.png)
+![git](https://github.com/ezahr/devops/blob/master/pictures/git-branche_feature1_01.png)
 
-![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_02.png)
+![git](https://github.com/ezahr/devops/blob/master/pictures/git-branche_feature1_02.png)
 
-![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_03.png)
+![git](https://github.com/ezahr/devops/blob/master/pictures/git-branche_feature1_03.png)
 
-![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_04.png)
+![git](https://github.com/ezahr/devops/blob/master/pictures/git-branche_feature1_04.png)
 
-![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_05.png)
+![git](https://github.com/ezahr/devops/blob/master/pictures/git-branche_feature1_05.png)
 
-![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_06.png)
+![git](https://github.com/ezahr/devops/blob/master/pictures/it-branche_feature1_06.png)
 
-![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_07.png)
+![git](https://github.com/ezahr/devops/blob/master/pictures/it-branche_feature1_07.png)
 
-![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_08.png)
+![git](https://github.com/ezahr/devops/blob/master/pictures/git-branche_feature1_08.png)
 
-![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_09.png)
+![git](https://github.com/ezahr/devops/blob/master/pictures/git-branche_feature1_09.png)
 
-![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_10.png)
+![git](https://github.com/ezahr/devops/blob/master/pictures/git-branche_feature1_10.png)
 
-![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_11.png)
+![git](https://github.com/ezahr/devops/blob/master/pictures/git-branche_feature1_11.png)
+
 |[branches](https://docs.microsoft.com/en-us/azure/devops/repos/git/branches?view=azure-devops&tabs=command-line#use-branches-to-manage-development)|
 |------------------------------------------------------|
 |sudo git commit -am "pentested"|
