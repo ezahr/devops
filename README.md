@@ -87,3 +87,34 @@
 [Git's workflow](https://docs.microsoft.com/en-us/azure/devops/repos/git/pullrequest?view=azure-devops) uses branches to isolate work until you're ready to merge the changes into your default branch, such as master. The pull request is the collaborative process that lets the rest of the team discuss changes in a branch and agree to merge them once everyone approves. Use pull requests to get early feedback from others on work in progress, even if you're not ready to merge the changes into another branch.
 
 [apply-changes-from-one-branch-to-another](https://www.jetbrains.com/help/pycharm/apply-changes-from-one-branch-to-another.html?gclid=Cj0KCQjwjer4BRCZARIsABK4QeVp50Oynvq_9kHTnyT9VkzgFQwRHjhSf9QMmiZAoR-xlBG63GkFyCkaArOFEALw_wcB#cherry-pick)
+
+
+$ git checkout master
+$ git branch new-branch
+$ git checkout new-branch
+
+# ...develop some code...
+
+git add –A
+git commit –m "Some commit message"
+$ git checkout master
+$ git merge new-branch
+
+
+ubuntu@ubuntu:/var/www/html/devops$ sudo git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+ubuntu@ubuntu:/var/www/html/devops$ 
+
+|sudo git checkout master|
+|sudo git merge feature1|
+|git status|
+|sudo git status|
+|sudo git push|
+|sudo git push --set-upstream origin master|
+|git status|
+|git pull|
+|sudo git pull|
+|cat index.nginx-debian.html |
+|sudo git push|
+
