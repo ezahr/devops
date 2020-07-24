@@ -41,24 +41,43 @@
 |sudo git commit -am "for you devops project"|
 |sudo git push|
 
-## branches 
+## branches  sudo git push --set-upstream origin feature1
+![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_00.png)
 
+![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_01.png)
+
+![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_02.png)
+
+![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_03.png)
+
+![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_04.png)
+
+![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_05.png)
+
+![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_06.png)
+
+![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_07.png)
+
+![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_08.png)
+
+![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_09.png)
+
+![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_10.png)
+
+![git](https://github.com/ezahr/devops/blob/master/git-branche_feature1_11.png)
 |[branches](https://docs.microsoft.com/en-us/azure/devops/repos/git/branches?view=azure-devops&tabs=command-line#use-branches-to-manage-development)|
 |------------------------------------------------------|
 |sudo git commit -am "pentested"|
 |sudo git checkout master|
-|git config --global --ed|it|
-|sudo git checkout featur|e1| |
+|git config --global --edit|
+|sudo git checkout feature1| |
 |git status|
 |clear|
-|git s|tatus|
-|sudo |git c|heckout master|
-|sudo |git c|heckout featur|e1 |
-|git s|tatus|
-|git p|ush -|u origin users/frank/bugfix|
-|git push -|u origin |
-|sudo git p|ush -u or|igin |
-|sudo git p|ush --set|-upst|ream origin feature1|
+|git status|
+|sudo git checkout master|
+|sudo git checkout featur|e1 |
+|git status|
+|sudo git push --set-upstream origin feature1|
 
 
 
