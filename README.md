@@ -39,4 +39,11 @@
 |sudo git add .|
 |git status|
 |sudo git commit -am "for you devops project"|
-|sudo git push|h
+|sudo git push|
+
+## branches 
+
+[branches](https://docs.microsoft.com/en-us/azure/devops/repos/git/branches?view=azure-devops&tabs=command-line#use-branches-to-manage-development)
+
+
+
