@@ -230,6 +230,13 @@ To https://github.com/ezahr/devops.git
 
 ````
 
+[How to Delete a Git Branch Both Locally and Remotely](https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/)
+
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
 
 
-
+git fetch -p
