@@ -1,5 +1,14 @@
 # devops
 
+
+create_new_repo.png
+git_commit.png
+git_init.png
+git_push.png
+
+
+
+
 |[must-know-commands-to-make-your-first-commit](https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c)
 |--------------------------------------|
 |sudo rm -rf devops/                                    |
